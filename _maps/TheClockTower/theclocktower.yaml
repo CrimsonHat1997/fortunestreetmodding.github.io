@@ -8,7 +8,7 @@ initialCash: 2500
 targetAmount: 20000
 baseSalary: 500
 salaryIncrement: 350
-maxDiceRoll: 7
+maxDiceRoll: 8
 frbFile1: theclocktower_FRB1
 frbFile2: theclocktower_FRB2
 frbFile3: theclocktower_FRB3
@@ -39,6 +39,11 @@ authors:
   - name: phellen007
   - name: RyanDCB
 changelog:
+  - version: 2
+    changed:
+      - Reduced board size by 8 squares and adjusted the shape of the board
+      - Connected the one way doors to alley ends, raised the max roll to 8
+      - Altered the backstreet destinations
   - version: 1
     added:
       - Initial release
